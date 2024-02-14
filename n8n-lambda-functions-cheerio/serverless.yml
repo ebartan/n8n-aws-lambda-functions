@@ -1,0 +1,12 @@
+org: ebartan
+app: n8n
+service: n8n-lambda-functions-cheerio
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  function1:
+    handler: index.handler
